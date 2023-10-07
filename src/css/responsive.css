@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 425px) {
+    main::after {
+        background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    }
+
     main .character img {
         height: 55%;
     }
@@ -56,13 +60,18 @@
     }
 
     main .character .content {
-        top: -12%;
+        top: -14%;
         padding: 30px;
     }
 
     main .character .content h2 {
         font-size: 30px;
         margin-bottom: 10px;
+    }
+
+    main .character .content p {
+        font-size: 14px;
+        line-height: 18px;
     }
 
     aside ul li button img {
