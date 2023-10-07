@@ -74,6 +74,10 @@
         line-height: 18px;
     }
 
+    aside {
+        padding: 50px;
+    }
+
     aside ul li button img {
         max-width: 50px;
     }
